@@ -29,6 +29,8 @@ package com.kobe.generic;
 * ！！！！！
 * */
 
+import com.kobe.equalsAndHashcode.Person;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -51,12 +53,12 @@ public class Generic<T> {
         l.add(1L);
         l.add(3L);
         l.add(4L);
-        List<Student> students = new ArrayList<>();
-        students.add(new JuniorStudent("kobe", true, 34));
-        students.add(new JuniorStudent("umi", false, 33));
+        List<Person> students = new ArrayList<>();
+        students.add(new JuniorStudent("kobe", Person.GENDER.MALE, 34));
+        students.add(new JuniorStudent("umi", Person.GENDER.FEMALE, 33));
         Generic<Long> gen = new Generic<>();
-        Generic<Student> genStudent = new Generic<>();
-        Student s = genStudent.findSmall(students);
+        Generic<Person> genStudent = new Generic<>();
+        Person s = genStudent.findSmall(students);
 
         System.out.print(gen.findSmall(l) + "\n");
         System.out.print(s.toString());

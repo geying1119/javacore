@@ -2,26 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87340da0-d5da-4f5c-8c64-8edfb81c163f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javacore.pom" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kobe/annotation/Calculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kobe/annotation/PerformanceReport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kobe/equalsAndHashcode/Person.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/description.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/project-template.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/kobe/classloader/TestClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/kobe/ooconcept/OOConcept.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/kobe/generic/AddTrace.java" afterPath="$PROJECT_DIR$/src/com/kobe/annotation/EnableTrace.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javacore/com/kobe/generic/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javacore/com/kobe/proxy/Calculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javacore/com/kobe/proxy/EnableTrace.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javacore/com/kobe/proxy/PerformanceReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javacore/com/kobe/reflect/Target.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/kobe/generic/Student.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/kobe/reflect/Target.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javacore/com/kobe/equalsAndHashcode/Person$GENDER.class" afterPath="$PROJECT_DIR$/out/production/javacore/com/kobe/equalsAndHashcode/Person$GENDER.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javacore/com/kobe/equalsAndHashcode/Person.class" afterPath="$PROJECT_DIR$/out/production/javacore/com/kobe/equalsAndHashcode/Person.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javacore/com/kobe/generic/Generic.class" afterPath="$PROJECT_DIR$/out/production/javacore/com/kobe/generic/Generic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javacore/com/kobe/generic/JuniorStudent.class" afterPath="$PROJECT_DIR$/out/production/javacore/com/kobe/generic/JuniorStudent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javacore/com/kobe/reflect/Reflect.class" afterPath="$PROJECT_DIR$/out/production/javacore/com/kobe/reflect/Reflect.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kobe/classloader/ByteUtils.java" afterPath="$PROJECT_DIR$/src/com/kobe/classloader/ByteUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kobe/classloader/ClassModifier.java" afterPath="$PROJECT_DIR$/src/com/kobe/classloader/ClassModifier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kobe/classloader/HackSystem.java" afterPath="$PROJECT_DIR$/src/com/kobe/classloader/HackSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kobe/classloader/HotSwapClassLoader.java" afterPath="$PROJECT_DIR$/src/com/kobe/classloader/HotSwapClassLoader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kobe/classloader/JavaClassExecuter.java" afterPath="$PROJECT_DIR$/src/com/kobe/classloader/JavaClassExecuter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kobe/annotation/PerformanceReport.java" afterPath="$PROJECT_DIR$/src/com/kobe/annotation/PerformanceReport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kobe/equalsAndHashcode/Person.java" afterPath="$PROJECT_DIR$/src/com/kobe/equalsAndHashcode/Person.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kobe/generic/Generic.java" afterPath="$PROJECT_DIR$/src/com/kobe/generic/Generic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kobe/generic/Student.java" afterPath="$PROJECT_DIR$/src/com/kobe/generic/Student.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kobe/generic/JuniorStudent.java" afterPath="$PROJECT_DIR$/src/com/kobe/generic/JuniorStudent.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kobe/reflect/Reflect.java" afterPath="$PROJECT_DIR$/src/com/kobe/reflect/Reflect.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,12 +35,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kobe/generic/Student.java">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kobe/equalsAndHashcode/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-64">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#1140#1141#0" expanded="true" />
+                <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1231#1232#0" expanded="true" />
+                <element signature="e#2417#2433#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,28 +63,40 @@
       <file leaf-file-name="Generic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kobe/generic/Generic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state relative-caret-position="26">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reflect.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Reflect.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kobe/reflect/Reflect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="247">
+              <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JuniorStudent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kobe/generic/JuniorStudent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Target.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kobe/reflect/Target.java">
+      <file leaf-file-name="Comparable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/lang/Comparable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="135" column="21" lean-forward="false" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -93,21 +117,21 @@
       <file leaf-file-name="PerformanceReport.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kobe/annotation/PerformanceReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="-95">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="javacore.pom" pinned="false" current-in-tab="true">
+      <file leaf-file-name="javacore.pom" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javacore.pom">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="209">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,21 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/lang/Class.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="1821" column="26" lean-forward="false" selection-start-line="1821" selection-start-column="26" selection-end-line="1821" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kobe/annotation/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="152">
+              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -155,6 +169,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>containskey</find>
+      <find>before call</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,15 +185,19 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/kobe/ooconcept/TestEquals.java" />
         <option value="$PROJECT_DIR$/src/com/kobe/ooconcept/Person.java" />
-        <option value="$PROJECT_DIR$/src/com/kobe/equalsAndHashcode/Person.java" />
         <option value="$PROJECT_DIR$/test/equalsAndHashcode/Person.java" />
         <option value="$PROJECT_DIR$/src/com/kobe/generic/Student.java" />
         <option value="$PROJECT_DIR$/src/com/kobe/proxy/AddTrace.java" />
         <option value="$PROJECT_DIR$/src/com/kobe/proxy/EnableTrace.java" />
         <option value="$PROJECT_DIR$/src/com/kobe/proxy/PerformanceReport.java" />
         <option value="$PROJECT_DIR$/src/com/kobe/proxy/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/com/kobe/annotation/PerformanceReport.java" />
         <option value="$PROJECT_DIR$/javacore.pom" />
+        <option value="$PROJECT_DIR$/src/com/kobe/reflect/Target.java" />
+        <option value="$PROJECT_DIR$/src/com/kobe/annotation/PerformanceReport.java" />
+        <option value="$PROJECT_DIR$/src/com/kobe/equalsAndHashcode/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/kobe/generic/JuniorStudent.java" />
+        <option value="$PROJECT_DIR$/src/com/kobe/generic/Generic.java" />
+        <option value="$PROJECT_DIR$/src/com/kobe/reflect/Reflect.java" />
       </list>
     </option>
   </component>
@@ -304,6 +323,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="equalsAndHashcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javacore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javacore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kobe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="annotation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -320,7 +361,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="hashmap&#9;PSI&#9;JAVA://java.util.HashMap" />
+    <property name="SearchEverywhereHistoryKey" value="before call&#9;PSI&#9;JAVA://com.sun.java.swing.SwingUtilities3.EventQueueDelegateFromMap#beforeDispatchCallable&#10;hashmap&#9;PSI&#9;JAVA://java.util.HashMap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -331,7 +372,7 @@
       <recent name="C:\code\javacore" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Calculator">
+  <component name="RunManager" selected="Application.Reflect">
     <configuration default="false" name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -360,6 +401,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.kobe.annotation.Calculator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="javacore" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Reflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kobe.reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.kobe.reflect.Reflect" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -752,14 +813,16 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Person" />
       <item index="1" class="java.lang.String" itemvalue="Application.Calculator" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Reflect" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Calculator" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Person" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.Reflect" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Calculator" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Person" />
       </list>
     </recent_temporary>
   </component>
@@ -777,12 +840,12 @@
       <option name="presentableId" value="Default" />
       <updated>1501336469462</updated>
       <workItem from="1501336472891" duration="2741000" />
-      <workItem from="1501402944003" duration="7697000" />
+      <workItem from="1501402944003" duration="11221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10438000" />
+    <option name="totallyTimeSpent" value="13962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1292" height="735" extended-state="0" />
@@ -795,6 +858,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.046266235" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25405845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -807,16 +871,15 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3090278" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28993055" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24350649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3559028" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -843,7 +906,19 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1729#1745#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#2417#2433#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -925,9 +1000,9 @@
         <state relative-caret-position="342">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1538#1539#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1823#1824#0" expanded="false" />
+            <element signature="e#1859#1860#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -936,16 +1011,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#273#274#0" expanded="false" />
-            <element signature="e#301#302#0" expanded="false" />
-            <element signature="e#340#341#0" expanded="false" />
-            <element signature="e#374#375#0" expanded="false" />
-            <element signature="e#405#406#0" expanded="false" />
-            <element signature="e#432#433#0" expanded="false" />
-            <element signature="e#472#473#0" expanded="false" />
-            <element signature="e#504#505#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,61 +1103,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kobe/generic/JuniorStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kobe/equalsAndHashcode/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1729#1745#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/equalsAndHashcode/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kobe/generic/Generic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kobe/generic/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kobe/reflect/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kobe/reflect/Reflect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1112,10 +1127,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kobe/annotation/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/javacore.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1130,22 +1145,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kobe/annotation/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kobe/annotation/PerformanceReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="-95">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javacore.pom">
+    <entry file="file://$PROJECT_DIR$/src/com/kobe/reflect/Target.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="95">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="135" column="21" lean-forward="false" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/com/sun/java/swing/SwingUtilities3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="158" column="66" lean-forward="true" selection-start-line="158" selection-start-column="66" selection-end-line="158" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kobe/generic/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="53" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kobe/equalsAndHashcode/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#2417#2433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kobe/generic/JuniorStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kobe/generic/Generic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kobe/reflect/Reflect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

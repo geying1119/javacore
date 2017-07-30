@@ -19,12 +19,48 @@ String s = m.get(new Person("Mike", Male, 30));
 //s是null，而不是USA
 ```
 * */
-public class Person {
-   public enum GENDER {MALE, FEMALE};
+public class Person implements Comparable {
+    @Override
+    public int compareTo(Object o) {
+        Person b = (Person) o;
+        if (this.getAge() < b.getAge()) {
+            return -1;
+        } else if (this.getAge() == b.getAge()) {
+            return 0;
+        } else {
+            return 1;
+        }
+    }
+
+    public enum GENDER {MALE, FEMALE};
 
     private String name;
     private GENDER gender;
     private int age;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public GENDER getGender() {
+        return gender;
+    }
+
+    public void setGender(GENDER gender) {
+        this.gender = gender;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     public Person(String name, GENDER gender, int age) {
         this.name = name;

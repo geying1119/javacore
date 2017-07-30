@@ -1,17 +1,19 @@
 package com.kobe.generic;
 
+import com.kobe.equalsAndHashcode.Person;
+
 /**
  * Created by I047580 on 3/25/2017.
  */
-public class JuniorStudent extends Student {
+public class JuniorStudent extends Person {
     private String highSchoolName;
 
-    public JuniorStudent(String name, boolean gender, int age, String highSchoolName) {
+    public JuniorStudent(String name, GENDER gender, int age, String highSchoolName) {
         super(name, gender, age);
         this.highSchoolName = highSchoolName;
     }
 
-    public JuniorStudent(String name, boolean gender, int age) {
+    public JuniorStudent(String name, GENDER gender, int age) {
         super(name, gender, age);
         this.highSchoolName = "NormalHighSchool";
     }

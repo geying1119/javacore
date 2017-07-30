@@ -1,28 +1,35 @@
 package com.kobe.reflect;
 
 import com.kobe.annotation.EnableTrace;
-import com.kobe.generic.Student;
+import com.kobe.equalsAndHashcode.Person;
 import sun.misc.ProxyGenerator;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.lang.reflect.*;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 
 /**
- * Created by I047580 on 3/25/2017.
+ * Class is for all object in JVM
+ * instance of Class is by:
+ * 1. XXXClass.class
+ * 2. objectXXX.getClass()
+ * 3. class.forName("path of XXXClass");
  */
 public class Reflect implements InvocationHandler {
     private Object object;
 
     public static void main(String[] args) {
-        Student s = new Student("Umi", true, 33);
-        Student s2 = new Student("Kobe", true, 25);
+        Person s = new Person("Kobe", Person.GENDER.MALE, 33);
+        Person s2 = new Person("Umi", Person.GENDER.FEMALE, 25);
         Reflect rf = new Reflect(s2);
-        Comparable comparable = (Comparable) Proxy.newProxyInstance(Student.class.getClassLoader(),
-                Student.class.getInterfaces(), rf);
-        String path = "c:/kobecode/$Proxy0.class";
-        byte[] classFile = ProxyGenerator.generateProxyClass("$Proxy0", Student.class.getInterfaces());
+        Comparable comparable = (Comparable) Proxy.newProxyInstance(Person.class.getClassLoader(),
+                Person.class.getInterfaces(), rf);
+        String path = "c:/code/javacore/$Proxy0.class";
+        byte[] classFile = ProxyGenerator.generateProxyClass("$Proxy0", Person.class.getInterfaces());
         FileOutputStream fos = null;
         try {
             fos = new FileOutputStream(path);
@@ -52,11 +59,11 @@ public class Reflect implements InvocationHandler {
         this.object = object;
     }
 
-    public int proxyMethod(Student s2) {
+    public int proxyMethod(Person s2) {
         Object result = null;
         try {
             Class c = Class.forName("com.kobe.generic.Student");
-            Student s = (Student) c.newInstance();
+            Person s = (Person) c.newInstance();
             Method[] methods = c.getMethods();
             for (Method m : methods) {
                 if (m.isAnnotationPresent(EnableTrace.class)) {
