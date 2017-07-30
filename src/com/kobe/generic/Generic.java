@@ -32,14 +32,14 @@ package com.kobe.generic;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Generic <T> {
-    public <T extends Comparable> T findSmall(List<T> collection){
-        if (collection == null || collection.isEmpty()){
+public class Generic<T> {
+    public <T extends Comparable> T findSmall(List<T> collection) {
+        if (collection == null || collection.isEmpty()) {
             return null;
         }
         T smallest = collection.get(0);
-        for (T t: collection) {
-            if (t.compareTo(smallest) < 0){
+        for (T t : collection) {
+            if (t.compareTo(smallest) < 0) {
                 smallest = t;
             }
         }

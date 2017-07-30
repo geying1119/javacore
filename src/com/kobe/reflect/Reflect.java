@@ -1,27 +1,25 @@
 package com.kobe.reflect;
-import com.kobe.generic.AddTrace;
+
+import com.kobe.annotation.EnableTrace;
 import com.kobe.generic.Student;
 import sun.misc.ProxyGenerator;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.lang.reflect.*;
-import java.net.URL;
-import java.util.Comparator;
-import java.util.Enumeration;
 
 /**
  * Created by I047580 on 3/25/2017.
  */
 public class Reflect implements InvocationHandler {
     private Object object;
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         Student s = new Student("Umi", true, 33);
         Student s2 = new Student("Kobe", true, 25);
         Reflect rf = new Reflect(s2);
-        Comparable comparable = (Comparable)Proxy.newProxyInstance(Student.class.getClassLoader(),
+        Comparable comparable = (Comparable) Proxy.newProxyInstance(Student.class.getClassLoader(),
                 Student.class.getInterfaces(), rf);
         String path = "c:/kobecode/$Proxy0.class";
         byte[] classFile = ProxyGenerator.generateProxyClass("$Proxy0", Student.class.getInterfaces());
@@ -36,31 +34,32 @@ public class Reflect implements InvocationHandler {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            if (fos != null){
+            if (fos != null) {
                 try {
                     fos.close();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
             }
-            }
+        }
 
         comparable.compareTo(s);
-       //rf.proxyMethod(s);
+        //rf.proxyMethod(s);
 
     }
+
     public Reflect(Object object) {
         this.object = object;
     }
 
-    public int proxyMethod(Student s2){
+    public int proxyMethod(Student s2) {
         Object result = null;
         try {
             Class c = Class.forName("com.kobe.generic.Student");
             Student s = (Student) c.newInstance();
             Method[] methods = c.getMethods();
-            for (Method m : methods){
-                if(m.isAnnotationPresent(AddTrace.class)){
+            for (Method m : methods) {
+                if (m.isAnnotationPresent(EnableTrace.class)) {
                     System.out.println("before call compareTo()\n");
                     try {
                         result = m.invoke(s, s2);
@@ -78,7 +77,7 @@ public class Reflect implements InvocationHandler {
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         }
-        return  (int)result;
+        return (int) result;
     }
 
     @Override

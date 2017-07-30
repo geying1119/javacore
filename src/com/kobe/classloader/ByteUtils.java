@@ -8,7 +8,7 @@ public class ByteUtils {
         int sum = 0;
         int end = start + len;
         for (int i = start; i < end; i++) {
-            int n = ((int)b[i]) & 0xff;
+            int n = ((int) b[i]) & 0xff;
             n <<= (--len) * 8;
             sum = n + sum;
         }
@@ -23,7 +23,7 @@ public class ByteUtils {
         return b;
     }
 
-    public static String bytes2String (byte[] b, int start, int len) {
+    public static String bytes2String(byte[] b, int start, int len) {
         return new String(b, start, len);
     }
 

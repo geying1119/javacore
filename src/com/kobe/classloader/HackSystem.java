@@ -16,21 +16,27 @@ public class HackSystem {
     public static String getBufferString() {
         return buffer.toString();
     }
+
     public static void clearBuffer() {
         buffer.reset();
     }
+
     public static void setSecurityManager(final SecurityManager s) {
         System.setSecurityManager(s);
     }
-    public static SecurityManager getSecurityManager () {
+
+    public static SecurityManager getSecurityManager() {
         return System.getSecurityManager();
     }
-    public static long currentTimeMillis(){
+
+    public static long currentTimeMillis() {
         return System.currentTimeMillis();
     }
+
     public static void arrayCopy(Object src, int srcPos, Object dest, int destPos, int length) {
         System.arraycopy(src, srcPos, dest, destPos, length);
     }
+
     public static int identityHashCode(Object x) {
         return System.identityHashCode(x);
     }

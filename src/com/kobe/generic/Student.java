@@ -43,7 +43,6 @@ public class Student implements Comparable {
     }
 
     @Override
-    @AddTrace("before")
     public int compareTo(Object o) {
         Student b = (Student) o;
         if (this.getAge() < b.getAge()) {

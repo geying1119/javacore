@@ -14,6 +14,7 @@ public class ClassModifier {
     public ClassModifier(byte[] classByte) {
         this.classByte = classByte;
     }
+
     public byte[] modifyUTF8Constant(String oldStr, String newStr) {
         int cpc = getConstantPoolCountCount();
         int offset = CONSTANT_POOL_COUNT_INDEX + u2;

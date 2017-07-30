@@ -7,7 +7,7 @@ import java.io.InputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-/**
+ /**
  * Created by I047580 on 7/20/2017.
  */
 public class JavaClassExecuter {
@@ -18,13 +18,14 @@ public class JavaClassExecuter {
         HotSwapClassLoader loader = new HotSwapClassLoader();
         Class clazz = loader.loadByte(modiBytes);
         try {
-            Method method = clazz.getMethod("main", new Class[] {String[].class});
-            method.invoke(null, new String[] {null});
+            Method method = clazz.getMethod("main", new Class[]{String[].class});
+            method.invoke(null, new String[]{null});
         } catch (Throwable e) {
             e.printStackTrace();
         }
         return HackSystem.getBufferString();
     }
+
     public static void main(String[] args) {
         InputStream is = null;
         try {
@@ -40,5 +41,5 @@ public class JavaClassExecuter {
         }
     }
 
-    }
+}
 
