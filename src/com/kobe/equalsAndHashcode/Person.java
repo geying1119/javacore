@@ -23,13 +23,16 @@ public class Person implements Comparable {
     @Override
     public int compareTo(Object o) {
         Person b = (Person) o;
+        int result = 0;
         if (this.getAge() < b.getAge()) {
-            return -1;
+            result =  -1;
         } else if (this.getAge() == b.getAge()) {
-            return 0;
+            result =  0;
         } else {
-            return 1;
+            result =  1;
         }
+        System.out.println("Person:Comparable()'s result: " + result);
+        return result;
     }
 
     public enum GENDER {MALE, FEMALE};
