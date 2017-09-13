@@ -6,10 +6,10 @@ import java.lang.reflect.Method;
 /**
  * Created by I047580 on 7/30/2017.
  */
-public class PerformanceReport {
+public class ProcessAnnotation {
     private Class<?> clazz;
 
-    public PerformanceReport(Class<?> clazz) {
+    public ProcessAnnotation(Class<?> clazz) {
         this.clazz = clazz;
     }
 

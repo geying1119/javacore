@@ -3,7 +3,7 @@ package com.kobe.annotation;
 /**
  * Created by I047580 on 7/30/2017.
  */
-public class Calculator {
+public class TestAnnotation {
 
     @EnableTrace
     public Long add(Long a, Long b) {
@@ -13,10 +13,10 @@ public class Calculator {
     }
 
     public static void main(String[] args) throws Exception {
-        Calculator c = new Calculator();
+        TestAnnotation c = new TestAnnotation();
         Long result = c.add(100L, 200L);
 
-        PerformanceReport pr = new PerformanceReport(c.getClass());
+        ProcessAnnotation pr = new ProcessAnnotation(c.getClass());
         pr.printReport();
     }
 }

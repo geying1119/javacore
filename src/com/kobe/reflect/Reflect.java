@@ -21,19 +21,6 @@ import java.lang.reflect.Proxy;
  */
 public class Reflect implements InvocationHandler {
     private Object object;
-
-    public static void main(String[] args) {
-        Person s = new Person("Kobe", Person.GENDER.MALE, 33);
-        Person s2 = new Person("Umi", Person.GENDER.FEMALE, 25);
-        Reflect rf = new Reflect(s2);
-        Comparable comparable = (Comparable) Proxy.newProxyInstance(Person.class.getClassLoader(),
-                Person.class.getInterfaces(), rf);
-
-
-        comparable.compareTo(s);
-
-    }
-
     public Reflect(Object object) {
         this.object = object;
     }

@@ -5,7 +5,7 @@ import java.lang.reflect.Proxy;
 /**
  * Created by I047580 on 7/31/2017.
  */
-public class SimpleDynamicProxyDemo {
+public class DynamicProxyTest {
     public static void consumer(Interface iface) {
         iface.doSth();
         iface.sthElse("aha");
